@@ -1,8 +1,52 @@
-<!DOCTYPE>
-<html>
-    <head>
-        <link href="js/extension.js"/>
-    </head>
-    <body>
-    </body>
-</html>
+<!DOCTYPE> 
+<html>    
+	<head>        
+		<link href="js/extension.js"/>    
+	</head>    
+	<body> 
+		<h1 STYLE="text-align:center;" ><font face="Comic Sans MS,arial,verdana"><font color="purple">TAREA DE SEMINARIO</font></h1>
+		<font face="Comic Sans MS,arial,verdana"><h4>RESULTADOS DE CONSOLA</h4></font>
+
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/extension.js"></script>
+	 	<script type="text/javascript">
+
+	 		jQuery(document).ready(function($) {
+	 			console.log("********ELIMINAR********");
+	 			var datos = ["david","lidia","banner","gabi"];
+	 			console.log(datos);
+	 			datos.borrar("lidia");
+	 			console.log(datos);
+	 		});
+
+	 	</script> 
+
+
+
+	 	<script type="text/javascript" src="js/extension.js"></script>
+	 	<script type="text/javascript">
+	 		console.log("******BUSCAR******");
+	 		var arreglo = ["1", "2", "4", "5"]            
+			for(var i = 0; i < arreglo.length; i++) {
+    			console.log("ENCONTRADOS" + arreglo[i]);
+    			if (arreglo[i] == "4") {
+        			console.log("OBJETOS ENCONTRADOS");
+        			break;
+    			}
+			}
+	 	</script> 
+
+
+	 	<script type="text/javascript" src="js/elementRep.js"></script>
+	 	<script type="text/javascript">
+	 		console.log("*****ELIMINAR REPETIDOS*****");
+	 		var myArr = [ 3, 2, 1, 'sol', 'mala', 'dormir', 4, 3, 'mala', 8, 3, 1];
+			console.log( myArr.unique() );
+
+	 	</script>     
+
+   
+
+	</body> 
+</html
